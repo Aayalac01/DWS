@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    
+}
+
+table,td{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+table{
+    align-self: center;
+    margin: auto;
+}
+
+td,.dead{
+    height: 4rem;
+    width: 4rem;
+}
+
+.piece{
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.piece:hover{
+    scale: 1.1;
+    background-color: rgba(121, 147, 214, 0.403);
+}
+
+img{
+    height: 100%;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.dead{
+    background-color: gray;
+}
+
