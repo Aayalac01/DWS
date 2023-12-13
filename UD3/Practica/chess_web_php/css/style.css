@@ -1,0 +1,61 @@
+
+
+.carousel > .carousel-inner > .carousel-item > img{   
+    height:50rem;
+}
+.text-fade-in{
+    animation: fadeIn 1s;
+}
+.slideInFade{
+    animation: slideInFade 0.8s ease-in-out 0.1s 1;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideInFade{
+    0%{opacity: 0; left: -100%;}
+    100%{opacity: 1; left: 0px;}
+}
+
+table,td{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+table{
+    align-self: center;
+    margin: auto;
+}
+
+td,.dead{
+    height: 4rem;
+    width: 4rem;
+}
+
+.piece{
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.piece:hover{
+    scale: 1.1;
+    background-color: rgba(121, 147, 214, 0.403);
+}
+
+img{
+    height: 100%;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.dead{
+    background-color: gray;
+}
