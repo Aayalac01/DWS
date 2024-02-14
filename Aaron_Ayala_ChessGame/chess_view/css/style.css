@@ -1,0 +1,138 @@
+.carousel>.carousel-inner>.carousel-item>img {
+    height: 50rem;
+}
+
+.text-fade-in {
+    animation: fadeIn 1s;
+}
+
+.slideInFade {
+    animation: slideInFade 0.8s ease-in-out 0.1s 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFade {
+    0% {
+        opacity: 0;
+        left: -100%;
+    }
+
+    100% {
+        opacity: 11;
+        left: 0px;
+    }
+}
+
+table,
+td {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+table {
+    align-self: center;
+    margin: auto;
+}
+
+td,
+.dead {
+    height: 4rem;
+    width: 4rem;
+}
+
+.piece {
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.piece:hover {
+    scale: 1.1;
+    background-color: rgba(121, 147, 214, 0.403);
+}
+
+img {
+    height: 100%;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.dead {
+    background-color: gray;
+}
+
+.box {
+    height: 40rem;
+    width: 30rem;
+    background-color: rgba(128, 128, 128, 0.418);
+    animation: fadeScaleIn 2s ease-in-out;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.31);
+}
+
+
+.animTitle {
+    position: absolute;
+    top: 2.5rem;
+    animation: fadeEase 2s ease-in-out;
+    color: white;
+    font-size: 4.8rem;
+}
+
+.logMain {
+    background-image: url(../images/ChessBg.jpg);
+    background-position: right;
+}
+
+.logTitle>h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+@keyframes fadeScaleIn {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeEase {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+        top: 25rem;
+    }
+
+    50% {
+        opaciti: 1;
+        transform: scale(1);
+        top: 25rem;
+    }
+
+}
